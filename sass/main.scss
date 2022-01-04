@@ -1,7 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: greenyellow;
+  //background-color: greenyellow;
+  font-size: 62.5%;
 }
 
 p {
-  font-size: 2rem;
+  color: black;
+  // font-size: 2rem;
+}
+
+.container {
+  max-width: 1390px;
+}
+
+.nav {
+}
+
+.cta-section {
+  color: #fff;
+  background-color: hsl(238, 22%, 44%);
+}
+
+.footer {
+  color: #fff;
+  background-color: hsl(243, 87%, 12%);
 }

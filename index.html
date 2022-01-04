@@ -5,12 +5,188 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Fylo landing page</title>
   </head>
 
+  <!-- Made by Elhoussaine AIT AICHTE 
+       https://www.frontendmentor.io/profile/elosscode
+  -->
+
   <body>
-    <p>Check Done</p>
+    <main>
+      <header>
+        <nav class="nav">
+          <img class="nav__logo" src="images/logo.svg" alt="Fylo logo" />
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#">Features</a></li>
+            <li><a class="nav__link" href="#">Team</a></li>
+            <li><a class="nav__link" href="#">Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <article>
+        <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+          <div class="container">
+            <!-- Left side -->
+            <div class="hero-section__left-side">
+              <h1 class="heading-primary">
+                All your files in one secure location, accessible anywhere.
+              </h1>
+              <p class="hero-section__paragraph">
+                Fylo stores your most important files in one secure location.
+                Access them wherever you need, share and collaborate with
+                friends, family, and co-workers.
+              </p>
+              <form>
+                <input class="hero-section__input" type="text" />
+                <button class="hero-section__button" type="button">
+                  Get Started
+                </button>
+              </form>
+            </div>
+
+            <!-- Right side -->
+            <div class="hero-section__right-side">
+              <img
+                class="hero-section__illustration"
+                src="images/illustration-1.svg"
+                alt="Hero image"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- DETAIL SECTION -->
+        <section class="detail">
+          <div class="container">
+            <!-- Left side -->
+            <div class="detail__left-side">
+              <h1 class="heading-primary">Stay productive, wherever you are</h1>
+              <p class="detail__paragraph">
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p class="detail__paragraph">
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required!
+              </p>
+              <div>
+                <a class="detail__link" href="#">See how Fylo works &rarr;</a>
+              </div>
+
+              <div class="detail__testimonial-card">
+                <blockquote class="detail__testimonial-paragraph" cite="#">
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </blockquote>
+                <div class="detail__profil">
+                  <img
+                    class="detail__profil-picture"
+                    src=""
+                    alt="Kyle profile picture"
+                  />
+                  <div class="detail__profil-details">
+                    <span class="detail__profil-name">Kyle Burton</span>
+                    <p class="detail__profil-role">Founder & CEO, Huddle</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Left right -->
+            <div class="detail__right-side">
+              <img
+                class="detail__illustration"
+                src="images/illustration-2.svg"
+                alt="Detail image"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- CALL TO ACTION SECTION -->
+        <section class="cta-section">
+          <div class="container">
+            <!-- Left side -->
+            <div class="cta-section__left-side">
+              <h2 class="heading-secondary">Get early access today</h2>
+              <p class="cta-section__paragraph">
+                It only takes a minute to sign up and our free starter tier is
+                extremely generous. If you have any questions, our support team
+                would be happy to help you.
+              </p>
+            </div>
+
+            <!-- Right side -->
+            <div class="cta-section__right-side">
+              <form>
+                <input class="cta-section__input" type="text" id="femail" />
+                <button type="cta-section__button">Get Started For Free</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+      <!-- FOOTER SECTION -->
+      <footer class="footer">
+        <div class="container">
+          <img src="images/logo.svg" alt="Fylo logo" />
+          <div>
+            <div>
+              <img src="images/icon-phone.svg" alt="Phone logo" />
+              <span>Phone: +1-543-123-4567</span>
+            </div>
+            <div>
+              <img src="images/icon-email.svg" alt="Phone logo" />
+              <span>example@fylo.com</span>
+            </div>
+          </div>
+
+          <div>
+            <span>About Us</span>
+            <span>Jobs</span>
+            <span>Press</span>
+            <span>Blog</span>
+          </div>
+
+          <div>
+            <span>Contact Us</span>
+            <span>Terms</span>
+            <span>Privacy</span>
+          </div>
+
+          <div>
+            <img src="images/facebook.svg" alt="Facebook logo" />
+            <img src="images/twitter.svg" alt="Twitter logo" />
+            <img src="images/instagram.svg" alt="Instagram logo" />
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>

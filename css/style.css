@@ -1,5 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 body {
-  background-color: greenyellow; }
+  font-size: 62.5%; }
 
 p {
-  font-size: 2rem; }
+  color: black; }
+
+.container {
+  max-width: 1390px; }
+
+.cta-section {
+  color: #fff;
+  background-color: #585989; }
+
+.footer {
+  color: #fff;
+  background-color: #070439; }

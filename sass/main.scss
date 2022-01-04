@@ -7,6 +7,7 @@
 body {
   //background-color: greenyellow;
   font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
 }
 
 p {
@@ -16,9 +17,31 @@ p {
 
 .container {
   max-width: 1390px;
+  margin: 0 auto;
 }
 
 .nav {
+  background-color: chocolate;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  // &__logo {
+  //   width: ;
+  // }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__link {
+    text-decoration: none;
+    margin-left: 2rem;
+  }
 }
 
 .cta-section {

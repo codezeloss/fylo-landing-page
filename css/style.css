@@ -4,13 +4,30 @@
   box-sizing: border-box; }
 
 body {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif; }
 
 p {
   color: black; }
 
 .container {
-  max-width: 1390px; }
+  max-width: 1390px;
+  margin: 0 auto; }
+
+.nav {
+  background-color: chocolate;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+  .nav__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row; }
+  .nav__link {
+    text-decoration: none;
+    margin-left: 2rem; }
 
 .cta-section {
   color: #fff;

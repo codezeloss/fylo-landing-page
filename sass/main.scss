@@ -126,7 +126,7 @@ p {
 
   // LEFT
   &__left-side {
-    width: 50%;
+    width: 60%;
 
     p {
       width: 37rem;
@@ -135,7 +135,7 @@ p {
 
   &__link-box {
     font-size: 1.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.8rem;
   }
 
   &__link:link,
@@ -146,24 +146,45 @@ p {
 
   &__testimonial-card {
     background-color: #fff;
-    width: 60%;
-    padding: 1.5rem 2.4rem;
+    width: 23rem;
+    padding: 2rem;
     border-radius: 0.3rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
 
   &__quote {
     font-size: 0.9rem;
     line-height: 1.6;
+    margin-bottom: 1.2rem;
   }
 
   &__profil {
     display: flex;
     flex-direction: row;
+    align-items: center;
+  }
+
+  &__profil-picture {
+    width: 2.2rem;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+  }
+
+  &__profil-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__profil-name {
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
   }
 
   // RIGHT
   &__right-side {
-    width: 50%;
+    width: 40%;
 
     img {
       width: 100%;

@@ -36,6 +36,7 @@ p {
 
 .heading-secondary {
   font-size: 2.1rem;
+  margin-bottom: 1.4rem;
 }
 
 ////////////////////////////////////////////
@@ -43,7 +44,7 @@ p {
 .nav {
   // background-color: rgb(232, 208, 192);
   font-size: 1.1rem;
-  padding: 2rem 3rem;
+  padding: 2rem 3rem 3rem 3rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -64,9 +65,6 @@ p {
 
 ////////////////////////////////////////////
 ////////////////  HERO SECTION /////////////////
-.hero {
-}
-
 .hero-container {
   // background-color: chartreuse;
   padding: 6rem 3rem;
@@ -117,7 +115,7 @@ p {
 }
 
 .detail-container {
-  background-color: greenyellow;
+  // background-color: greenyellow;
   padding: 8rem 3rem;
 
   display: flex;
@@ -192,12 +190,32 @@ p {
   }
 }
 
-//
+//////////////////////////////////////////////////
+////////////////  CTA SECTION /////////////////
 .cta {
   color: #fff;
   background-color: hsl(238, 22%, 44%);
 }
 
+.cta-container {
+  background-color: greenyellow;
+  padding: 6rem 3rem;
+
+  display: flex;
+  flex-direction: row;
+
+  // LEFT
+  &__left-side {
+    width: 50%;
+  }
+
+  &__right-side {
+    width: 50%;
+  }
+}
+
+//////////////////////////////////////////////////
+////////////////  FOOTER /////////////////
 .footer {
   color: #fff;
   background-color: hsl(243, 87%, 12%);

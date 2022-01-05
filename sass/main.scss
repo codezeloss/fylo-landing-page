@@ -84,7 +84,7 @@ p {
 
   &__input {
     width: 55%;
-    padding: 0.6rem 1rem;
+    padding: 0.85rem 1rem;
     margin-right: 0.7rem;
   }
 
@@ -93,9 +93,10 @@ p {
     color: #fff;
     font-size: 0.9rem;
     font-weight: 600;
-    padding: 0.6rem 3rem;
+    padding: 0.85rem 2.5rem;
     border: none;
     border-radius: 0.2rem;
+    cursor: pointer;
   }
 
   // RIGHT
@@ -198,19 +199,53 @@ p {
 }
 
 .cta-container {
-  background-color: greenyellow;
+  // background-color: greenyellow;
   padding: 6rem 3rem;
 
   display: flex;
   flex-direction: row;
+
+  p,
+  button {
+    color: #fff;
+  }
+
+  p {
+    width: 33rem;
+  }
 
   // LEFT
   &__left-side {
     width: 50%;
   }
 
+  // RIGHT
   &__right-side {
     width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__input {
+    width: 30rem;
+    padding: 1rem;
+    border: none;
+    border: 0.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  &__button {
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
   }
 }
 

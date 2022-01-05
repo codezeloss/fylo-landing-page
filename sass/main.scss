@@ -15,22 +15,39 @@ p {
   // font-size: 2rem;
 }
 
+////////////////////////////////////////////
+////////////////  GENERAL /////////////////
 .container {
   max-width: 1390px;
   margin: 0 auto;
 }
 
+.heading-primary {
+  font-size: 2.4rem;
+  line-height: 1.4;
+  margin-bottom: 1.2rem;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.4rem;
+}
+
+.heading-secondary {
+  font-size: 2.1rem;
+}
+
+////////////////////////////////////////////
+////////////////  NAVBAR /////////////////
 .nav {
-  background-color: chocolate;
+  // background-color: rgb(232, 208, 192);
+  font-size: 1.1rem;
   padding: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
-  // &__logo {
-  //   width: ;
-  // }
 
   &__list {
     list-style: none;
@@ -39,12 +56,63 @@ p {
   }
 
   &__link {
+    color: #000;
     text-decoration: none;
     margin-left: 2rem;
   }
 }
 
-.cta-section {
+////////////////////////////////////////////
+////////////////  HERO SECTION /////////////////
+.hero {
+}
+
+.hero-container {
+  // background-color: chartreuse;
+  padding: 6rem 3rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  // LEFT
+  &__left-side {
+    width: 50%;
+
+    p {
+      width: 38rem;
+    }
+  }
+
+  &__input {
+    width: 55%;
+    padding: 0.6rem 1rem;
+    margin-right: 0.7rem;
+  }
+
+  &__button {
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.6rem 3rem;
+    border: none;
+    border-radius: 0.2rem;
+  }
+
+  // RIGHT
+  &__right-side {
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+////////////////////////////////////////////
+////////////////  NAVBAR /////////////////
+.cta {
   color: #fff;
   background-color: hsl(238, 22%, 44%);
 }

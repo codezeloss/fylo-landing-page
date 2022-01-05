@@ -14,8 +14,21 @@ p {
   max-width: 1390px;
   margin: 0 auto; }
 
+.heading-primary {
+  font-size: 2.4rem;
+  line-height: 1.4;
+  margin-bottom: 1.2rem; }
+
+.paragraph {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.4rem; }
+
+.heading-secondary {
+  font-size: 2.1rem; }
+
 .nav {
-  background-color: chocolate;
+  font-size: 1.1rem;
   padding: 2rem;
   display: flex;
   flex-direction: row;
@@ -26,10 +39,37 @@ p {
     display: flex;
     flex-direction: row; }
   .nav__link {
+    color: #000;
     text-decoration: none;
     margin-left: 2rem; }
 
-.cta-section {
+.hero-container {
+  padding: 6rem 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .hero-container__left-side {
+    width: 50%; }
+    .hero-container__left-side p {
+      width: 38rem; }
+  .hero-container__input {
+    width: 55%;
+    padding: 0.6rem 1rem;
+    margin-right: 0.7rem; }
+  .hero-container__button {
+    background-color: #3065f8;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.6rem 3rem;
+    border: none;
+    border-radius: 0.2rem; }
+  .hero-container__right-side {
+    width: 50%; }
+    .hero-container__right-side img {
+      width: 100%; }
+
+.cta {
   color: #fff;
   background-color: #585989; }
 

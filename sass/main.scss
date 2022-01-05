@@ -29,7 +29,7 @@ p {
 }
 
 .paragraph {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 1.4rem;
 }
@@ -43,7 +43,7 @@ p {
 .nav {
   // background-color: rgb(232, 208, 192);
   font-size: 1.1rem;
-  padding: 2rem;
+  padding: 2rem 3rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -110,8 +110,70 @@ p {
   }
 }
 
-////////////////////////////////////////////
-////////////////  NAVBAR /////////////////
+//////////////////////////////////////////////////
+////////////////  DETAIL SECTION /////////////////
+.detail {
+  background-color: hsl(240, 75%, 98%);
+}
+
+.detail-container {
+  background-color: greenyellow;
+  padding: 8rem 3rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  // LEFT
+  &__left-side {
+    width: 50%;
+
+    p {
+      width: 37rem;
+    }
+  }
+
+  &__link-box {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  &__link:link,
+  &__link:visited {
+    color: green;
+    text-decoration: underline;
+  }
+
+  &__testimonial-card {
+    background-color: #fff;
+    width: 60%;
+    padding: 1.5rem 2.4rem;
+    border-radius: 0.3rem;
+  }
+
+  &__quote {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  &__profil {
+    display: flex;
+    flex-direction: row;
+  }
+
+  
+
+  // RIGHT
+  &__right-side {
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+//
 .cta {
   color: #fff;
   background-color: hsl(238, 22%, 44%);

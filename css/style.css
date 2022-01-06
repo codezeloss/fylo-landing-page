@@ -46,6 +46,10 @@ p {
   .heading-primary-2 {
     font-size: 1.2rem; } }
 
+@media only screen and (max-width: 374px) {
+  .heading-primary-2 {
+    font-size: 0.98rem; } }
+
 .heading-secondary {
   font-size: 2.2rem;
   margin-bottom: 1.4rem; }
@@ -124,6 +128,9 @@ p {
     color: #000;
     text-decoration: none;
     margin-left: 2rem; }
+    @media only screen and (max-width: 490px) {
+      .nav__link {
+        margin-left: 1.6rem; } }
     @media only screen and (max-width: 374px) {
       .nav__link {
         margin-left: 1.35rem; } }
